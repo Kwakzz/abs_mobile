@@ -26,7 +26,7 @@ class AppContainer extends StatelessWidget {
         onTap: onTap,
         child: Container(
           margin: const EdgeInsets.only(left: 20, right: 20, top: 10),
-          padding: const EdgeInsets.all(25),
+          padding: const EdgeInsets.all(20),
           decoration: BoxDecoration(
             color: colour,
             borderRadius: BorderRadius.circular(20),
@@ -41,7 +41,7 @@ class AppContainer extends StatelessWidget {
               Icon(
                 icon,
                 color: Colors.white,
-                size: 40,
+                size: 30,
               ),
             ],
           ),
