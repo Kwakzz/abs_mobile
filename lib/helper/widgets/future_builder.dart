@@ -30,6 +30,14 @@ class AppFutureBuilder extends StatelessWidget {
           return builder(snapshot.data);
         }
 
+        else if (!snapshot.hasError) {
+
+          return const Center(
+            child: CircularProgressIndicator(),
+          );
+
+        }
+
         else if (snapshot.hasError) {
           return Center(
             

@@ -15,6 +15,7 @@ Future <Map<String, dynamic>> initiatePayment(int tripTakenId, double amount, in
     final response = await http.post(
       Uri.http(domain, '${_path}create_charge/'),
       headers: <String, String> {
+        'Authorization': 'Bearer $paystackAPIKey',
         'Content-Type': 'application/json',
         'Accept': 'application/json',
       },

@@ -6,6 +6,8 @@ import 'package:ashesi_bus/helper/widgets/text.dart';
 import 'package:ashesi_bus/requests/trip.dart';
 import 'package:flutter/material.dart';
 
+import 'trip_passengers.dart';
+
 
 class TripCompletedDetails extends StatefulWidget {
 
@@ -81,6 +83,19 @@ class TripCompletedDetailsState extends State<TripCompletedDetails> {
               title: "${formatTime(parseTime(widget.trip['date_time_started']))} - ${formatTime(parseTime(widget.trip['date_time_ended']))}",
               leading: const Icon(Icons.access_time), 
               onTap: () {
+              }
+            ),
+
+            AppListTile(
+              title: "${widget.trip['no_of_passengers']} passengers", 
+              leading: const Icon(Icons.people), 
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => TripPassengers(trip: widget.trip)
+                  ),
+                );
               }
             ),
 
