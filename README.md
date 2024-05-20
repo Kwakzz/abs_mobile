@@ -1,16 +1,24 @@
-# ashesi_bus
+# Ashesi Bus
 
 A new Flutter project.
+
+## Overview
+
+Ashesi Bus is a mobile application designed for booking trips with the Ashesi University bus. This app provides a convenient and efficient way for students, faculty, and staff to schedule and manage their transportation needs.
+
+## Features
+
+- **Trip Booking**: Easily book trips with the Ashesi University bus for various routes and times.
+- **Schedule Management**: View and manage your upcoming trips, with notifications for departure times.
+- **Bus Routes**: Access detailed information on available bus routes, including pick-up and drop-off points.
+- **User Profiles**: Create and manage user profiles for a personalized booking experience.
+- **Support**: Access support for any issues or questions regarding the bus service.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ensure you have Flutter and Dart installed according to the official documentation: [Flutter Installation Guide](https://docs.flutter.dev/get-started/install)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
